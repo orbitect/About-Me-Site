@@ -71,10 +71,6 @@ body {
     gap: 8px;
 }
 
-.Left h1 {
-
-}
-
 .Left p {
     font-size: 16px;
 }
@@ -90,10 +86,87 @@ body {
 }
 
 .Introduction img {
-    padding: 10px;
     height: 300px;
     width: 500;
     border-radius: 18px;
+    border: 5px solid rgb(0, 140, 255);
+}
+
+/* InfoCard Part of the Site */
+
+.InfoCards {
+    width: 100%;
+    background-color: rgb(10, 27, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoCards h1 {
+    padding: 20px;
+    color: white;
+}
+
+.CardContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Images img {
+    border: 4px solid rgb(0, 140, 255);
+    border-radius: 18px;
+    width: 370px;
+    height: auto;
+}
+
+.CardText {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.CardText p {
+    width: 370px;
+    height: auto;
+    color: white;
+    margin-bottom: 100px;
+}
+
+/* Quote Part of the Site */
+
+.Quote {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(48, 62, 81);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Quote p {
+    align-items: center;
+}
+
+.Quote div {
+    justify-content: right;
 }
 
 /* Bottom Part of the Site */
