@@ -31,12 +31,19 @@ body {
 }
 
 .NavBar button {
+    padding: 7px;
     color: white;
     background-color: transparent;
     text-align: center;
     font-size: 18px;
     border: 0;
     overflow: hidden;
+}
+
+.NavBar button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
 }
 
 .Logo {
@@ -96,6 +103,11 @@ body {
     width: 140px;
     border-style: none;
     border-radius: 6px;
+}
+
+.Left button:hover {
+    color: black;
+    background-color: white;
 }
 
 .Introduction img {
@@ -228,6 +240,11 @@ body {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 8px;
+}
+
+.Prompt button:hover {
+    color: black;
+    background-color: white;
 }
 
 /* Bottom Part of the Site */
